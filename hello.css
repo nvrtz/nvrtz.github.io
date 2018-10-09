@@ -1,0 +1,110 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+p{
+	margin-bottom: 20px;
+}
+
+.wrapper {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background:black;
+	width:100%;
+	position: fixed;
+	z-index:10;
+}
+
+nav {
+	float: left;
+}
+
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+nav ul li{
+	float: left;
+	font-size: 20px;
+}
+
+nav ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	
+}
+
+nav ul li a:hover {
+	background-color: white;
+	color: black;
+}
+
+.active {
+	background-color: red;
+}
+
+.contenido {
+	padding-top:100px;
+	padding-left: 0px;
+}___________________________________
+
+section {
+	text-align: justify;
+	letter-spacing: 2px;
+}
+
+h1 {
+	font-family: Verdana;
+	letter-spacing: 0.6em;
+}
+
+h2{
+	font-family: Courier New;
+	letter-spacing: 0.3em;
+	font-size:15px;
+}
+
+h3 {
+	letter-spacing: 0.6em;
+	font-style: italic;
+}
+
+h4 {
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom:50px; 
+	letter-spacing: 0.4em;
+	font-size: 20px;
+	font-family: Verdana;
+}
+
+h5 {
+	text-align:center;
+	letter-spacing:0.2em;
+	font-size: 14px;
+	font-family:courier;
+}
+
+h6 {
+	padding-top: 50px;
+	padding-left:50px;
+}
+
+
+p {
+	letter-spacing:0.1em;
+}
+footer {
+	text-align:center;
+	font-size:14px;
+	padding-top:120px;
+}
